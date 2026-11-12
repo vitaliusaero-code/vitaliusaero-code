@@ -1,10 +1,9 @@
-### Independent Solana trader
+## Hi, I'm an independent trader on Solana
 
-I'm building and testing a small automated trading system for new tokens on Solana (pump.fun):
+These days most of my time goes into one project: a small automated system that trades new pump.fun tokens in the first moments after launch.
 
-- low-latency data from a shred feed in Frankfurt
-- transactions sent through Jito bundles and Nozomi
-- strictly no sandwiching or front-running of other users
-- every strategy change is tested on recorded market data before real money is used
+It reads a low-latency shred feed in Frankfurt and sends transactions through Jito bundles and Nozomi. I keep the stakes small and test every change on recorded market data before it goes anywhere near real money.
 
-The code is private. Happy to walk through the setup during the pilot.
+I never sandwich or front-run other traders. My entries always come after the transaction that triggers them, never ahead of it.
+
+It's a one-person project and the code is private, but I'm happy to talk through how it works.
